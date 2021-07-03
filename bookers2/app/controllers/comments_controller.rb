@@ -6,6 +6,7 @@ class CommentsController < ApplicationController
     comment.book_id = book.id
     comment.save
     redirect_back(fallback_location: root_path)
+
   end
 
 
